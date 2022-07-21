@@ -1,3 +1,109 @@
 #pageBody{
     background-color: rgb(78, 228, 255);
 }
+
+#topContainer{
+    border: 1px solid black;
+    height: 97vh;
+    width: 100%;
+}
+
+#firstVert{
+    position: absolute;
+    width: 50px;
+    height: 98%;
+    left: 33%;
+}
+
+#secondVert{
+    position: absolute;
+    width: 50px;
+    height: 98%;
+    left: 66%;
+    margin-bottom: 20px;
+}
+
+
+#firstHori{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 25%;
+}
+
+#secondHori{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 60%;
+}
+
+#firstBlank{
+    position: absolute;
+    top:2%;
+    left: 4%;
+}
+
+#secondBlank{
+    position: absolute;
+    top:2%;
+    left: 39%;
+}
+
+#thirdBlank{
+    position: absolute;
+    top:2%;
+    left: 73%;
+}
+
+#fourthBlank{
+    position: absolute;
+    top:36%;
+    left: 4%;
+}
+
+#fifthBlank{
+    position: absolute;
+    top:36%;
+    left: 39%;
+}
+
+#sixthBlank{
+    position: absolute;
+    top:36%;
+    left: 73%;
+}
+
+#seventhBlank{
+    position: absolute;
+    top:70%;
+    left: 4%;
+}
+
+#eighthBlank{
+    position: absolute;
+    top:70%;
+    left: 39%;
+}
+
+#ninthBlank{
+    position: absolute;
+    top:70%;
+    left: 73%;
+}
+
+
+
+.line{
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button{
+    width: 25vw;
+    height: 20vh;
+    background-color: rgb(78, 228, 255);
+    font-size: 7vw;
+    /* border: none; */
+}
